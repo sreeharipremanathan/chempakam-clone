@@ -2,8 +2,8 @@
     position: fixed;
     /* width: 20px;
     height: 20px; */
-    right: 0px;
-    bottom: 0px;
+    right: 10px;
+    bottom: 10px;
 }
 .header{
     background-color: rgb(245, 205, 182);
