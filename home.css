@@ -5,6 +5,12 @@
     right: 10px;
     bottom: 10px;
 }
+.whtap span{
+    /* box-shadow: 2px 2px 2px 2px; */
+    border-radius: 5px;
+    margin: 2px;
+    background-color: white;
+}
 .header{
     background-color: rgb(245, 205, 182);
     display: flex;
@@ -55,7 +61,7 @@
     top: 200px;
 }
 .cover{
-    position: absolute;
+    position: relative;
 }
 .wlcm{
     color: rgb(255, 255, 255);
@@ -64,10 +70,17 @@
     left: 210px;
     top: 150px;
 }
-.onlin{
+/* .onlin{
     position: relative;
     color: rgb(255, 255, 255);
     font-size: 40px;
     left: 210px;
     top: 250px;
+} */
+
+.prod{
+    text-align: center;
+}
+.prod h1{
+    
 }
