@@ -4,11 +4,12 @@
     height: 20px; */
     right: 10px;
     bottom: 10px;
+    
 }
 .whtap span{
     /* box-shadow: 2px 2px 2px 2px; */
     border-radius: 5px;
-    margin: 2px;
+    padding: 5px 5px;
     background-color: white;
 }
 .header{
@@ -80,7 +81,65 @@
 
 .prod{
     text-align: center;
-}
-.prod h1{
     
 }
+.new-arrival h1{
+    text-align: center;
+}
+.amount{
+    font-size: 20px;
+}
+.products{
+    display:flex;
+}
+
+.card{
+    padding: 10px;
+    border: none;
+}
+.products2{
+    display: flex;
+}
+.brws{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    background-color: rgb(6, 6, 6);
+    display: flex;
+}
+.medias{
+    list-style: none;
+    display: flex;
+}
+.medias a{
+    padding: 15px 15px;
+}
+.col-lg-2{
+    color: white;
+}
+.footeritms{
+    color: rgba(255, 255, 255, 0.59);
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 8%;
+}
+.abt{
+    margin-top: 22px;
+}
+h6{
+    color: white;
+}
+.dtls{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.518);
+    padding-left: 0px;
+    padding-top: 8%;
+    margin-top: 22px;
+}
+@media screen and (max-width:567px) {
+    .products{
+        display: block;
+    }
+}
+
