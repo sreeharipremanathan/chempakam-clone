@@ -142,5 +142,20 @@ h6{
     .products{
         display: block;
     }
+    .products2{
+        display: block;
+    }
+    .carousel-item{
+
+        width: 49%;
+    }
+    .wlcm{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        font-size: 40px;
+        left: 210px;
+        top: 150px;
+    }
+   
 }
 
