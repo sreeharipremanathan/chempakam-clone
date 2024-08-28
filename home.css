@@ -68,8 +68,13 @@
     color: rgb(255, 255, 255);
     position: absolute;
     font-size: 40px;
-    left: 210px;
-    top: 150px;
+    left: 10%;
+    top: 20%;
+}
+.wlcm1{
+    position: absolute;
+    left: 10%;
+    top: 55%;
 }
 /* .onlin{
     position: relative;
@@ -156,15 +161,16 @@ h6{
     .wlcm{
         font-size: 40px;
         left: 10%;
-        top: 10%;
+        top: 5%;
     }
+    
     .wlcm p{
         font-size: 2vw;
     }
     .wlcm img{
-        height: 50px;
+        height: 30px;
     }
-    .wlcm a{
+    .wlcm1 a{
         font-size: 1vw;
     }
    
@@ -187,7 +193,7 @@ h6{
     .wlcm img{
         height: 50px;
     }
-    .wlcm a{
+    .wlcm1 a{
         font-size: 1vw;
     }
 }
@@ -209,7 +215,7 @@ h6{
     .wlcm img{
         height: 50px;
     }
-    .wlcm a{
+    .wlcm1 a{
         font-size: 1vw;
     } 
 }
