@@ -37,6 +37,34 @@
 .navbar a:hover{
     color: rgb(139, 44, 148);
 }
+
+/* .... */
+
+.navbar-brand img {
+    height: 50px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.search-box input {
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a img {
+    height: 25px;
+    width: 25px;
+}
 .imput{
     position: absolute;
 }
@@ -200,6 +228,32 @@ h6{
     }
 }
 @media only screen and (max-width:992px) and (min-width:768px){
+    .social-icons {
+        display: flex;
+        justify-content: center; /* Center icons */
+        align-items: center;
+        gap: 15px; /* Space between icons */
+        margin: 20px auto; /* Space above */
+        width: 100%;
+    }
+
+    .social-icons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .navbar-collapse {
+        text-align: center; /* Center align text */
+    }
+
+    .search-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
     .products{
         display: block;
     }
